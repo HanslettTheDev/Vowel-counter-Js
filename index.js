@@ -24,6 +24,8 @@ function checkText() {
     for (let i = 0; i < usersText.length; i++) {
         if (usersText[i] === 'a' || usersText[i] === 'e' || usersText[i] === 'i' || usersText[i] === 'o' || usersText[i] === 'u' ) {
             vowels.push(usersText[i]);
+        } else if (usersText[i] === 'A' || usersText[i] === 'E' || usersText[i] === 'I' || usersText[i] === 'O' || usersText[i] === 'U' ) {
+            vowels.push(usersText[i]);
         }
     }
     alert("Just " + vowels.length + " vowels found")
